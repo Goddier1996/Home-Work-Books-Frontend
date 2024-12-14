@@ -10,7 +10,10 @@ and now you can see all data show and website working.
 * Use only custom hook state !
 
 Video website:
-https://github.com/user-attachments/assets/5d804c2e-6f5e-433c-a9d7-3b8bace3a1e2
+
+
+https://github.com/user-attachments/assets/f0451007-2454-40ed-aeb8-31d9fc398a97
+
 
 photo website:
 ![Home](https://github.com/user-attachments/assets/46928a44-3175-42b0-9bae-46e6f52fb8be)
