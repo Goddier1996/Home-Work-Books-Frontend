@@ -1,0 +1,71 @@
+.searchStyle p {
+    text-align: center;
+    font-size: 12px;
+    color: red;
+    margin-bottom: -1%;
+}
+
+.modelSearch {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.search-box {
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    border-radius: 2.5em;
+    border-radius: 100px;
+    border-right: 0.3em #4c1f04 solid;
+    border-left: 0.3em #fec107 solid;
+    border-top: 0.3em #4c1f04 solid;
+    border-bottom: 0.3em #fec107 solid;
+}
+
+.search-box input {
+    font-family: inherit;
+    font-weight: bold;
+    width: auto;
+    height: 2.5em;
+    padding: 0.3em 2.1em 0.3em 0.4em;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 2.5em;
+    transition: width 800ms cubic-bezier(0.68, -0.55, 0.27, 1.55) 150ms;
+    background: rgba(0, 0, 0, 0);
+}
+
+.search-box input:focus {
+    outline: none;
+}
+
+
+.dontHaveThisBook {
+    margin-top: -1%;
+    display: flex;
+    justify-content: center;
+    font-family: inherit;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+@media(max-width:991px) {
+
+    .modelSearch {
+        margin-top: 5%;
+    }
+
+    .search-box {
+        font-size: 13px;
+    }
+
+    .searchStyle p {
+        font-size: 10px;
+    }
+
+    .dontHaveThisBook p {
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,106 @@
+/* style cards books */
+.showBooks {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 3%;
+}
+
+.viewAllData {
+    display: flex;
+    justify-content: center;
+}
+
+.limitWidth {
+    width: 85%;
+}
+
+.rowItems {
+    display: flex;
+    justify-content: center;
+}
+
+.cardsBook {
+    width: 370px;
+}
+
+.buttonsEditDelete {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+/* updated Button Edit*/
+.updatedButton {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* loading data */
+.spinner {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* main title */
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #8da683;
+    padding: 3%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    -webkit-animation: animation 5s linear infinite;
+    -moz-animation: animation 5s linear infinite;
+    animation: animation 5s linear infinite;
+}
+
+@keyframes animation {
+    50% {
+        border-bottom-left-radius: 20%;
+        border-bottom-right-radius: 20%;
+    }
+}
+
+
+.title p {
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    background:
+        repeating-radial-gradient(#000 0 0.0001%, #000000 0 0.0002%) 50% 0/2500px 2500px,
+        repeating-conic-gradient(#000 0 0.0001%, #000000 0 0.0002%) 50% 50%/2500px 2500px;
+    background-blend-mode: difference;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.title h6 {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 15px;
+    background:
+        repeating-radial-gradient(#000 0 0.0001%, #000000 0 0.0002%) 50% 0/2500px 2500px,
+        repeating-conic-gradient(#000 0 0.0001%, #000000 0 0.0002%) 50% 50%/2500px 2500px;
+    background-blend-mode: difference;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+
+
+@media(max-width:991px) {
+
+    .title p {
+        font-size: 17px;
+    }
+}
